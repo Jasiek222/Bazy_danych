@@ -1,6 +1,6 @@
 # Bazy_danych
 
-Imię i nazwisko: #Jan Szlagór
+Imię i nazwisko: Jan Szlagór
 
 wydział: EAIiIB 
 
