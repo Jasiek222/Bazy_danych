@@ -1,7 +1,9 @@
 # Bazy_danych
 
-Imię i nazwisko: Jan Szlagór
+Imię i nazwisko: #Jan Szlagór
 
-Wydział: EAIiIB 
+wydział: EAIiIB 
 
-Kierunek: AiR
+kierunek: AiR
+
+nr indeksu: 402139
