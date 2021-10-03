@@ -1,3 +1,5 @@
 # Bazy_danych
 
-student: Jan Szlagór
+Imię i nazwisko: Jan Szlagór
+Wydział: EAIiIB 
+Kierunek: AiR
