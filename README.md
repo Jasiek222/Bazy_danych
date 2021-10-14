@@ -1,3 +1,9 @@
-# Labolatorium 2: TIER protocol i tidy data
+# Analiza i Bazy Danych:
 
-Ćwiczenie ma na celu zapoznanie się z metodyką TIER protocol dotyczącego tworzenia struktury projektu związanego z analizą i przetwarzaniem danych oraz zapoznanie się z metodami tidy data z wykorzystaniem moduły Pythona - Pandas.DataFrame 
+Student: Jan Szlagór
+
+Wydział: EAIiIB
+
+Kierunek: AiR
+
+Nr_indeksu: 402139
