@@ -1,0 +1,47 @@
+Wstęp do SQL-a:
+
+Komendy:
+
+CREATE DATABASE nazwa_bazy_danych;
+
+CREATE TABLE nazwa_tabeli (
+	nazwa_kol_1 typ_zmiennej, /// np. int
+	nazwa_kol_2 typ_zmiennej, /// np. VARCHAR(100)
+	...
+	nazwa_kol_n typ_zmiennej,
+);
+
+
+- Dodanie i usunięcie kolumny do tablicy:
+
+ALERT TABLE nazwa_tablicy ADD nazwa_nowej_kol typ_zmiennej;
+
+ALERT TABLE nazwa_tab DROP COLUMN nazwa_kolumny_usówanej;
+
+- Usunięcie tablicy lub bazy danych:
+
+DROP TABLE nazwa_tablicy;
+
+DROP DATABASE nazwa_bazy_danych;
+
+- Dodanie danych do tablicy:
+
+INSERT INTO nazwa_tab (nazwa_kolumny1, ..., nazwa_kolumny_n)
+VALUES (dana_1, ..., dana_n);
+
+- Wypisanie CAŁEJ tablicy:
+
+SELECT * FROM nazwa_tab; /// i wypisz całą tablice
+
+- Wypisanie kolumny z tablicy:
+
+SELECT nazwa_kol, nazwa_kol_n FROM nazwa_tab; /// i wypisze odpowiednią kolmnę/kolumny z tablicy
+SELECT nazwa_kol, nazwa_kol_n FROM nazwa_tab ORDER BY nazwa_kol DESC; /// wypiszę kolumny posortowane 
+
+- Aktualizacja danych:
+
+UPDATE nazwa_tab SET nazwa_kol = nowa_wartosć WHERE nazwa_kol = 'nazwa_zmiennej_zmienianej';
+
+- Usówanie rekordu:
+
+DELETE FROM nazwa_tab WHERE nazwa_po_jakiej_zmiennej = wartość_zmiennej;
